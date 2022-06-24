@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>이미지 맵</title>
+</head>
+<body>
+  <h2>이미지 맵</h2>
+  <hr>
+  <ul>
+    <li>이미지 내부에 클릭 가능한 영역을 만들 때 사용</li>
+    <li>그래픽 도구 등에서 좌표 확인 후 해당 좌표를 coords 속성에 쉼표로 입력</li>
+    <li>영역의 모양은 shape 속성을 이용하여 사각형(rect), 원형(circle), 다각형(poly)을 지정할 수 있다.</li>
+  </ul>
+
+  <img src="http://wooreeweb.com/img/tmon.png" alt="" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="709, 258, 905, 309" href="#" alt="">
+    <area shape="rect" coords="1540, 323, 1625, 358" href="#" alt="">
+  </map>
+
+  <p><a href="http://youtu.be/YhVDUTGDp0M">동영상 참고</a></p>
+</body>
+</html>
